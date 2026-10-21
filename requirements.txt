@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+pyxtf
+PyYAML
+pyproj
+scipy
+torch
+torchvision
+open_clip_torch
+Pillow

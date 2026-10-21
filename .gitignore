@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Dataset
+/Dataset/
+/data/
+/SSS/
+/SSS-XTF/
+*.xtf
+*.svlog
+*.svlz
+
+# Local configuration
+.env
+config_local.py
+configs/local.yaml
+
+# Generated heavy files
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+
+# Generated outputs
+outputs/*
+!outputs/manifest.json
+
+!outputs/tables/
+outputs/tables/*
+!outputs/tables/*.csv
+!outputs/tables/.gitkeep
+
+!outputs/figures/
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+!outputs/patches/
+outputs/patches/*
+!outputs/patches/.gitkeep
+
+!outputs/embeddings/
+outputs/embeddings/*
+!outputs/embeddings/.gitkeep
+
+outputs/legacy/
+
+# Public repository: exclude all generated experiment artifacts
+/outputs/
+
+# Never publish raw or derived sonar data
+*.xtf
+*.svlog
+*.svlz
+*.csv
+*.npz
+*.npy
+*.pt
+*.pth
+*.pdf
+
+# Local settings and credentials
+.env
+.env.*
+configs/local.yaml
+*.pem
+*.key
+
+# Python tooling
+.pytest_cache/
